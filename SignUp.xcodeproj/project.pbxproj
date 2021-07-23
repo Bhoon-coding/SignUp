@@ -14,6 +14,7 @@
 		E1F3A87B26A9BDC600960950 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1F3A87A26A9BDC600960950 /* Assets.xcassets */; };
 		E1F3A87E26A9BDC600960950 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1F3A87C26A9BDC600960950 /* LaunchScreen.storyboard */; };
 		E1F3A88826A9C8B000960950 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F3A88726A9C8B000960950 /* SecondViewController.swift */; };
+		E1F3A88B26AA98F200960950 /* ImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F3A88A26AA98F200960950 /* ImagePickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E1F3A87D26A9BDC600960950 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1F3A87F26A9BDC600960950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1F3A88726A9C8B000960950 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		E1F3A88A26AA98F200960950 /* ImagePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				E1F3A87126A9BDC600960950 /* AppDelegate.swift */,
 				E1F3A87326A9BDC600960950 /* SceneDelegate.swift */,
 				E1F3A87526A9BDC600960950 /* ViewController.swift */,
+				E1F3A88A26AA98F200960950 /* ImagePickerViewController.swift */,
 				E1F3A87726A9BDC600960950 /* Main.storyboard */,
 				E1F3A88726A9C8B000960950 /* SecondViewController.swift */,
 				E1F3A87A26A9BDC600960950 /* Assets.xcassets */,
@@ -142,6 +145,7 @@
 			files = (
 				E1F3A88826A9C8B000960950 /* SecondViewController.swift in Sources */,
 				E1F3A87626A9BDC600960950 /* ViewController.swift in Sources */,
+				E1F3A88B26AA98F200960950 /* ImagePickerViewController.swift in Sources */,
 				E1F3A87226A9BDC600960950 /* AppDelegate.swift in Sources */,
 				E1F3A87426A9BDC600960950 /* SceneDelegate.swift in Sources */,
 			);
