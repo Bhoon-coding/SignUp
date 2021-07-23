@@ -15,6 +15,7 @@
 		E1F3A87E26A9BDC600960950 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1F3A87C26A9BDC600960950 /* LaunchScreen.storyboard */; };
 		E1F3A88826A9C8B000960950 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F3A88726A9C8B000960950 /* SecondViewController.swift */; };
 		E1F3A88B26AA98F200960950 /* ImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F3A88A26AA98F200960950 /* ImagePickerViewController.swift */; };
+		E1F3A89126AAAD8400960950 /* UserInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F3A89026AAAD8400960950 /* UserInformation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		E1F3A87F26A9BDC600960950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1F3A88726A9C8B000960950 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		E1F3A88A26AA98F200960950 /* ImagePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerViewController.swift; sourceTree = "<group>"; };
+		E1F3A89026AAAD8400960950 /* UserInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInformation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 		E1F3A86526A9BDC600960950 = {
 			isa = PBXGroup;
 			children = (
+				E1F3A89026AAAD8400960950 /* UserInformation.swift */,
 				E1F3A87026A9BDC600960950 /* SignUp */,
 				E1F3A86F26A9BDC600960950 /* Products */,
 			);
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1F3A88826A9C8B000960950 /* SecondViewController.swift in Sources */,
+				E1F3A89126AAAD8400960950 /* UserInformation.swift in Sources */,
 				E1F3A87626A9BDC600960950 /* ViewController.swift in Sources */,
 				E1F3A88B26AA98F200960950 /* ImagePickerViewController.swift in Sources */,
 				E1F3A87226A9BDC600960950 /* AppDelegate.swift in Sources */,
