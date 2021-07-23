@@ -55,7 +55,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="AjC-oW-2lt">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="AjC-oW-2lt">
                                 <rect key="frame" x="20" y="158" width="374" height="88"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="이름을 입력해주세요." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RfP-di-QuQ">
@@ -90,6 +90,7 @@
                         <constraints>
                             <constraint firstItem="72N-1y-gkf" firstAttribute="leading" secondItem="ePq-43-zZf" secondAttribute="trailing" constant="54" id="4Bf-AQ-tU7"/>
                             <constraint firstItem="ePq-43-zZf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="CrR-qZ-cYx"/>
+                            <constraint firstItem="AjC-oW-2lt" firstAttribute="top" secondItem="72N-1y-gkf" secondAttribute="bottom" constant="20" id="LST-cM-j4Y"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="AjC-oW-2lt" secondAttribute="trailing" constant="20" id="cU3-zu-d3D"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="72N-1y-gkf" secondAttribute="trailing" constant="20" id="gOL-72-1zK"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ePq-43-zZf" secondAttribute="trailing" symbolic="YES" id="rbz-r2-3HB"/>
