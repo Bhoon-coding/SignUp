@@ -17,6 +17,7 @@
 		E1F3A88B26AA98F200960950 /* ImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F3A88A26AA98F200960950 /* ImagePickerViewController.swift */; };
 		E1F3A89126AAAD8400960950 /* UserInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F3A89026AAAD8400960950 /* UserInformation.swift */; };
 		E1F3A89A26ABBD7B00960950 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F3A89926ABBD7B00960950 /* DatePickerViewController.swift */; };
+		E1F3A8C126AD69F000960950 /* TapGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F3A8C026AD69F000960950 /* TapGesture.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		E1F3A88A26AA98F200960950 /* ImagePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerViewController.swift; sourceTree = "<group>"; };
 		E1F3A89026AAAD8400960950 /* UserInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInformation.swift; sourceTree = "<group>"; };
 		E1F3A89926ABBD7B00960950 /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		E1F3A8C026AD69F000960950 /* TapGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGesture.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,6 @@
 		E1F3A86526A9BDC600960950 = {
 			isa = PBXGroup;
 			children = (
-				E1F3A89026AAAD8400960950 /* UserInformation.swift */,
 				E1F3A87026A9BDC600960950 /* SignUp */,
 				E1F3A86F26A9BDC600960950 /* Products */,
 			);
@@ -67,6 +68,8 @@
 			children = (
 				E1F3A87126A9BDC600960950 /* AppDelegate.swift */,
 				E1F3A87326A9BDC600960950 /* SceneDelegate.swift */,
+				E1F3A8C026AD69F000960950 /* TapGesture.swift */,
+				E1F3A89026AAAD8400960950 /* UserInformation.swift */,
 				E1F3A87526A9BDC600960950 /* ViewController.swift */,
 				E1F3A89926ABBD7B00960950 /* DatePickerViewController.swift */,
 				E1F3A88A26AA98F200960950 /* ImagePickerViewController.swift */,
@@ -156,6 +159,7 @@
 				E1F3A88B26AA98F200960950 /* ImagePickerViewController.swift in Sources */,
 				E1F3A87226A9BDC600960950 /* AppDelegate.swift in Sources */,
 				E1F3A87426A9BDC600960950 /* SceneDelegate.swift in Sources */,
+				E1F3A8C126AD69F000960950 /* TapGesture.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
