@@ -8,7 +8,15 @@
 import UIKit
 
 class TapGestureViewController: UIViewController {
-    @IBAction func tapview(_ sender: UITapGestureRecognizer) {
+    @IBAction func tapView(_ sender: UITapGestureRecognizer) {
         self.view.endEditing(true)
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        let tapGesture: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(self.tapView(_:)))
+        
+        self.view.addGestureRecognizer(tapGesture)
     }
 }
