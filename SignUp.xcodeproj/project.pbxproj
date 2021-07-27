@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E1CA439D26AE38E300625C9C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CA439C26AE38E300625C9C /* LoginViewController.swift */; };
+		E1D7891926B03ED100F3F1C0 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D7891826B03ED100F3F1C0 /* SignUpViewController.swift */; };
 		E1F3A87226A9BDC600960950 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F3A87126A9BDC600960950 /* AppDelegate.swift */; };
 		E1F3A87426A9BDC600960950 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F3A87326A9BDC600960950 /* SceneDelegate.swift */; };
 		E1F3A87626A9BDC600960950 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F3A87526A9BDC600960950 /* ViewController.swift */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		E1CA439C26AE38E300625C9C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E1D7891826B03ED100F3F1C0 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		E1F3A86E26A9BDC600960950 /* SignUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1F3A87126A9BDC600960950 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1F3A87326A9BDC600960950 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				E1F3A89926ABBD7B00960950 /* DatePickerViewController.swift */,
 				E1F3A88A26AA98F200960950 /* ImagePickerViewController.swift */,
 				E1F3A87726A9BDC600960950 /* Main.storyboard */,
+				E1D7891826B03ED100F3F1C0 /* SignUpViewController.swift */,
 				E1CA439C26AE38E300625C9C /* LoginViewController.swift */,
 				E1F3A88726A9C8B000960950 /* SecondViewController.swift */,
 				E1F3A87A26A9BDC600960950 /* Assets.xcassets */,
@@ -159,6 +162,7 @@
 				E1F3A88826A9C8B000960950 /* SecondViewController.swift in Sources */,
 				E1F3A89126AAAD8400960950 /* UserInformation.swift in Sources */,
 				E1F3A89A26ABBD7B00960950 /* DatePickerViewController.swift in Sources */,
+				E1D7891926B03ED100F3F1C0 /* SignUpViewController.swift in Sources */,
 				E1F3A87626A9BDC600960950 /* ViewController.swift in Sources */,
 				E1F3A88B26AA98F200960950 /* ImagePickerViewController.swift in Sources */,
 				E1F3A87226A9BDC600960950 /* AppDelegate.swift in Sources */,
