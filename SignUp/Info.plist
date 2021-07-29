@@ -58,7 +58,9 @@
 	<key>CFBundleDisplayName</key>
 	<string></string>
 	<key>NSCameraUsageDescription</key>
-	<string>사진등록을 위해 사진이 필요합니다.</string>
+	<string>Please allow to use Camera</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Please allow access to select a photo</string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
