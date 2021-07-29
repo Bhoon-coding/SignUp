@@ -12,7 +12,9 @@ class SignUpViewController: UIViewController, UIImagePickerControllerDelegate, U
     lazy var imagePicker: UIImagePickerController = {
         let picker: UIImagePickerController = UIImagePickerController()
         picker.sourceType = .photoLibrary
+        picker.allowsEditing = true
         picker.delegate = self
+
         return picker
     }()
     
@@ -26,9 +28,15 @@ class SignUpViewController: UIViewController, UIImagePickerControllerDelegate, U
     @IBOutlet weak var imageView: UIImageView!
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
-        if let originalImage: UIImage = info[UIImagePickerController.InfoKey.originalImage]as? UIImage {
-            self.imageView.image = originalImage
+        
+        var newImage: UIImage? = nil
+        
+        if let possibleImage: UIImage = info[UIImagePickerController.InfoKey.editedImage] as? UIImage {
+            newImage = possibleImage
+        } else if let possibleImage: UIImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
+            newImage = possibleImage
         }
+        self.imageView.image = newImage
         self.dismiss(animated: true, completion: nil)
     }
     
